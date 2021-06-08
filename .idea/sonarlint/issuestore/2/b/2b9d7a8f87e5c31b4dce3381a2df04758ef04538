@@ -1,0 +1,21 @@
+
+°
+java:S44498"”Annotate the parameter with @javax.annotation.Nullable in method 'setRenderLayer' declaration, or make sure that null can not be passed as argument.(¯„î´ÿÿÿÿÿ
+B
+java:S16120",Replace this lambda with a method reference.(Æâó
+i
+java:S1602>"SRemove useless curly braces around statement and then remove useless return keyword(‰±÷˜
+b
+java:S3252F"LUse static access with "net.minecraft.block.AbstractBlock" for "Properties".(Ò¦
+e
+java:S1874Q"JDon't override a deprecated method or explicitly mark it as "@Deprecated".(ÇÙãšÿÿÿÿÿ
+U
+java:S1161Q":Add the "@Override" annotation above this method signature(ÇÙãšÿÿÿÿÿ
+=
+java:S1125R"'Remove the unnecessary boolean literal.(ÕÅ¨
+M
+java:S1874R"7Remove this use of "isSideInvisible"; it is deprecated.(ÕÅ¨
+e
+java:S1874`"JDon't override a deprecated method or explicitly mark it as "@Deprecated".(ëó½Íùÿÿÿÿ
+K
+java:S1874a"0Remove this use of "getDrops"; it is deprecated.(İ¶Áòùÿÿÿÿ
