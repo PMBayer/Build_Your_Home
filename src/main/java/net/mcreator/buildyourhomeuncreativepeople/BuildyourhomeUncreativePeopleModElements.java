@@ -90,8 +90,10 @@ public class BuildyourhomeUncreativePeopleModElements {
 	}
 
 	public List<Supplier<Enchantment>> getEnchantments() {
+
 		return enchantments;
 	}
+
 	public static class ModElement implements Comparable<ModElement> {
 		@Retention(RetentionPolicy.RUNTIME)
 		public @interface Tag {
@@ -118,6 +120,7 @@ public class BuildyourhomeUncreativePeopleModElements {
 
 		@Override
 		public int compareTo(ModElement other) {
+
 			return this.sortid - other.sortid;
 		}
 	}

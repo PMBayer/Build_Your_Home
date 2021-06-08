@@ -40,6 +40,7 @@ public class HologramBlock extends BuildyourhomeUncreativePeopleModElements.ModE
 	public static final Block block = null;
 	public HologramBlock(BuildyourhomeUncreativePeopleModElements instance) {
 		super(instance, 2);
+		int x = 0;
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BlockColorRegisterHandler());
 	}
 
