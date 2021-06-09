@@ -40,8 +40,8 @@ public class HologramBlock extends BuildyourhomeUncreativePeopleModElements.ModE
 	public static final Block block = null;
 	public HologramBlock(BuildyourhomeUncreativePeopleModElements instance) {
 		super(instance, 2);
-		int x = 0;
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BlockColorRegisterHandler());
+		FMLJavaModLoadingContext.get().getModEventBus().register(new ItemColorRegisterHandler());
 	}
 
 	@Override
@@ -66,9 +66,19 @@ public class HologramBlock extends BuildyourhomeUncreativePeopleModElements.ModE
 		}
 	}
 
+	private static class ItemColorRegisterHandler {
+		@OnlyIn(Dist.CLIENT)
+		@SubscribeEvent
+		public void itemColorLoad(ColorHandlerEvent.Item event) {
+			event.getItemColors().register((stack, index) -> {
+				return GrassColors.get(0.5D, 1.0D);
+			}, block);
+		}
+	}
+
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(1f, 10f).setLightLevel(s -> 15)
+			super(Block.Properties.create(Material.BUBBLE_COLUMN).sound(SoundType.GLASS).hardnessAndResistance(1f, 10f).setLightLevel(s -> 15)
 					.doesNotBlockMovement().notSolid().setOpaque((bs, br, bp) -> false));
 			setRegistryName("hologram");
 		}
@@ -102,3 +112,5 @@ public class HologramBlock extends BuildyourhomeUncreativePeopleModElements.ModE
 		}
 	}
 }
+
+
