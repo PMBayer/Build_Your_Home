@@ -1,4 +1,5 @@
 
+
 package net.mcreator.buildyourhomeuncreativepeople.block;
 
 import net.minecraftforge.registries.ObjectHolder;
@@ -14,7 +15,6 @@ import net.minecraft.world.IBlockDisplayReader;
 import net.minecraft.world.GrassColors;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.Direction;
-import net.minecraft.state.properties.SlabType;
 import net.minecraft.loot.LootContext;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
@@ -79,7 +79,7 @@ public class HologramHalfplankBlock extends BuildyourhomeUncreativePeopleModElem
 
 	public static class CustomBlock extends SlabBlock {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.BUBBLE_COLUMN).sound(SoundType.GLASS).hardnessAndResistance(1f, 10f).setLightLevel(s -> 15)
+			super(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(1f, 10f).setLightLevel(s -> 15)
 					.doesNotBlockMovement().notSolid().setOpaque((bs, br, bp) -> false));
 			setRegistryName("hologram_halfplank");
 		}
@@ -104,7 +104,7 @@ public class HologramHalfplankBlock extends BuildyourhomeUncreativePeopleModElem
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(this, state.get(TYPE) == SlabType.DOUBLE ? 2 : 1));
+			return Collections.singletonList(new ItemStack(this, 0));
 		}
 	}
 }

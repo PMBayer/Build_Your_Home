@@ -80,7 +80,7 @@ public class HologramstarsBlock extends BuildyourhomeUncreativePeopleModElements
 	public static class CustomBlock extends StairsBlock {
 		public CustomBlock() {
 			super(new Block(Block.Properties.create(Material.ROCK).hardnessAndResistance(1f, 10f)).getDefaultState(),
-					Block.Properties.create(Material.BUBBLE_COLUMN).sound(SoundType.GLASS).hardnessAndResistance(1f, 10f).setLightLevel(s -> 15)
+					Block.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(1f, 10f).setLightLevel(s -> 15)
 							.doesNotBlockMovement().notSolid().setOpaque((bs, br, bp) -> false));
 			setRegistryName("hologramstars");
 		}
@@ -110,7 +110,7 @@ public class HologramstarsBlock extends BuildyourhomeUncreativePeopleModElements
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(this, 1));
+			return Collections.singletonList(new ItemStack(this, 0));
 		}
 	}
 }
