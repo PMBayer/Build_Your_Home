@@ -1,0 +1,196 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "BlueprintHouse01",
+      "type": "recipe",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blueprint_house_01"
+    },
+    {
+      "name": "Hologram",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hologram"
+    },
+    {
+      "name": "BlueprintHouse02",
+      "type": "recipe",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blueprint_house_02"
+    },
+    {
+      "name": "BlueprintHouse03",
+      "type": "recipe",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blueprint_house_03"
+    },
+    {
+      "name": "BlueprintHouse04",
+      "type": "recipe",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blueprint_house_04"
+    },
+    {
+      "name": "BlueprintHouse05",
+      "type": "recipe",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blueprint_house_05"
+    },
+    {
+      "name": "BlueprintHouse06",
+      "type": "recipe",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blueprint_house_06"
+    },
+    {
+      "name": "BlueprintHouse07",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blueprint_house_07"
+    },
+    {
+      "name": "BlueprintHouse1",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blueprint_house_1"
+    },
+    {
+      "name": "BlueprintHouse2",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blueprint_house_2"
+    },
+    {
+      "name": "BlueprintHouse3",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blueprint_house_3"
+    },
+    {
+      "name": "BlueprintHouse4",
+      "type": "item",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blueprint_house_4"
+    },
+    {
+      "name": "BlueprintHouse5",
+      "type": "item",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blueprint_house_5"
+    },
+    {
+      "name": "BlueprintHouse6",
+      "type": "item",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blueprint_house_6"
+    },
+    {
+      "name": "BlueprintHouse7",
+      "type": "item",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blueprint_house_7"
+    },
+    {
+      "name": "Hologramstars",
+      "type": "block",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hologramstars"
+    },
+    {
+      "name": "HologramHalfplank",
+      "type": "block",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hologram_halfplank"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "block.buildyourhome__uncreative_people.hologram": "Hologram",
+      "block.buildyourhome__uncreative_people.hologramstars": "Hologramstars",
+      "item.buildyourhome__uncreative_people.blueprint_house_2": "Blueprint House 2",
+      "item.buildyourhome__uncreative_people.blueprint_house_3": "Blueprint House 3",
+      "item.buildyourhome__uncreative_people.blueprint_house_1": "Blueprint House 1",
+      "item.buildyourhome__uncreative_people.blueprint_house_6": "Blueprint House 6",
+      "item.buildyourhome__uncreative_people.blueprint_house_7": "Blueprint House 7",
+      "item.buildyourhome__uncreative_people.blueprint_house_4": "Blueprint House 4",
+      "item.buildyourhome__uncreative_people.blueprint_house_5": "Blueprint House 5",
+      "block.buildyourhome__uncreative_people.hologram_halfplank": "Hologram Halfplank"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "buildyourhome__uncreative_people",
+    "modName": "BuildYourHome 4 uncreative people",
+    "version": "1.0.0",
+    "author": "kimpa, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "modElementsPackage": "net.mcreator.buildyourhomeuncreativepeople",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100118117
+}
